@@ -3,6 +3,9 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
+
+        "serve": "bash ./vendor/bin/sail up",
+        "migrate": "bash ./vendor/bin/sail artisan migrate",
         "deploy": "bash ./deploy.sh"
     },
     "devDependencies": {
