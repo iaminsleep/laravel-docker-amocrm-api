@@ -6,6 +6,7 @@
 
         "serve": "bash ./vendor/bin/sail up",
         "migrate": "bash ./vendor/bin/sail artisan migrate",
+        "export-deals": "bash ./vendor/bin/sail artisan export:deals",
         "deploy": "bash ./deploy.sh"
     },
     "devDependencies": {
